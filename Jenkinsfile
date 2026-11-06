@@ -10,8 +10,8 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = 'webazure.azurecr.io'
-        IMAGE    = 'hello-azure'
+        REGISTRY = 'jenkins.azurecr.io'
+        IMAGE    = 'hello-jenkins'
     }
 
     stages {
