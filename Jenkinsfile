@@ -10,7 +10,7 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = 'liveazure.azurecr.io'
+        REGISTRY = 'webazure123.azurecr.io'
         IMAGE    = 'hello-jenkins'
     }
 
